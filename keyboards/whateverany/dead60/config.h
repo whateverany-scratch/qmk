@@ -20,7 +20,7 @@
 
 /* USB Device descriptor parameter */
 
-#define VENDOR_ID       0xBEEF
+#define VENDOR_ID       0xDEAD
 #define PRODUCT_ID      0x0060
 #define DEVICE_VER      0x0001
 
