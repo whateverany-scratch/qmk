@@ -1,5 +1,5 @@
 # qmk
-QKM keyboards
+QMK keyboards
 
 Small repo with custom whateverany keyboard code, maps and tools.
 
