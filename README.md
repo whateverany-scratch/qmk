@@ -10,7 +10,7 @@ cd qmk_firmware/keyboards
 ln -s ../../qmk/keyboards/whateverany
 ```
 
-##babe30
+## babe30
 ![babe30](images/babe30.jpg?raw=true "babe30")
 ## badd40
 ![badd40](images/badd40.jpg?raw=true "badd40")
