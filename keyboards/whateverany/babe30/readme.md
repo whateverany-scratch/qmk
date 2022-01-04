@@ -1,6 +1,6 @@
 # babe30
 
-![babe30](imgur.com image replace me!)
+![babe30](../../../images/babe30.jpg?raw=true "babe30")
 
 *Based on 0_sixty*
 
