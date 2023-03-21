@@ -73,15 +73,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+-------------+------+------+------+------+------|
  * | PgUp | Left |  Up  | Down |Right | PgDn |      |   -  |   =  |   [  |   ]  |  \   |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
- * |      |      |      |      |      |      | Home | Left |  Up  | Down |Right | End  |
+ * |      | Print|Scroll|Pause |Insert|      | Home | Left |  Up  | Down |Right | End  |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * |      |      |      |      |      |      |      |      |      |      |      |      |
  * `-----------------------------------------------------------------------------------'
  */
 [_RAISE] = LAYOUT_ortho_4x12( \
   KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_DEL, \
-  KC_PGUP, KC_LEFT, KC_UP, KC_DOWN,  KC_RGHT, KC_PGDN, _______, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC, KC_BSLS, \
-  _______, _______, _______, _______, _______, _______, KC_HOME, KC_LEFT, KC_UP, KC_DOWN,  KC_RGHT, KC_END,  \
+  KC_PGUP, KC_LEFT, KC_UP  , KC_DOWN, KC_RGHT, KC_PGDN, _______, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC, KC_BSLS, \
+  _______, KC_PSCR, KC_SLCK, KC_PAUS, KC_INS , _______, KC_HOME, KC_LEFT, KC_UP ,  KC_DOWN, KC_RGHT, KC_END,  \
   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______ \
 ),
 
